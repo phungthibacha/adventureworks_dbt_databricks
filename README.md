@@ -9,6 +9,7 @@ This project demonstrates a complete data engineering pipeline leveraging Azure 
 * **Objective:** Extract raw data from the source system and land it in a raw, unprocessed format.
 * **Source:** Azure SQL Database (`sqldb-adventureworks-dev`) containing Adventure Works data (sale transactions, customers, products, address, ...).
 * **Destination:** ADLS Gen2 `bronze` container.
+![ADLS Gen 2 Storage.png](https://github.com/phungthibacha/adventureworks_dbt_databricks/blob/master/ADLS%20Gen%202%20Storage.png)
 * **Process:**
     1. **Data Factory Orchestration:**
         - Create an Azure Data Factory pipeline to automate the data extraction process.
