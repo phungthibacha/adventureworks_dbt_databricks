@@ -2,7 +2,7 @@
 
 This project demonstrates a complete data engineering pipeline leveraging Azure Databricks, Data Build Tool (DBT), and Azure cloud services. The project adheres to a **Medalion Architecture**, a data management paradigm that promotes a structured and iterative approach to data processing, ensuring data quality and reliability throughout the lifecycle.
 
-![Alt text](Medalion Architecture.png)
+![Medalion Architecture.png](https://github.com/phungthibacha/adventureworks_dbt_databricks/blob/master/Medalion%20Architecture.png)
 
 ## 1. Data Ingestion (Bronze Layer)
 
