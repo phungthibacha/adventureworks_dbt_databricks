@@ -12,6 +12,7 @@ This project demonstrates a complete data engineering pipeline leveraging Azure 
 ![ADLS Gen 2 Storage.png](https://github.com/phungthibacha/adventureworks_dbt_databricks/blob/master/ADLS%20Gen%202%20Storage.png)
 * **Process:**
     1. **Data Factory Orchestration:**
+![Azure Data Pipeline](https://github.com/phungthibacha/adventureworks_dbt_databricks/blob/master/Azure%20Data%20Pipeline.png)
         - Create an Azure Data Factory pipeline to automate the data extraction process.
         - Utilize a **Lookup** activity to dynamically retrieve a list of all tables within the specified schema (e.g., `SalesLT`) in the SQL Database.
         - Employ a **For Each** loop to iterate through each table identified by the Lookup activity.
