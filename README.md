@@ -72,6 +72,9 @@ This project demonstrates a complete data engineering pipeline leveraging Azure 
     - Execute `dbt test` to run the defined tests and identify any data quality issues.
 * **Documentation:**
     - Generate and serve interactive data documentation using `dbt docs generate` and `dbt docs serve`. This provides valuable insights into the data model, lineage, and data quality.
+![dim_customers.png](https://github.com/phungthibacha/adventureworks_dbt_databricks/blob/master/dim_customers.png)
+![dim_products.png](https://github.com/phungthibacha/adventureworks_dbt_databricks/blob/master/dim_products.png)
+![fact_sales.png](https://github.com/phungthibacha/adventureworks_dbt_databricks/blob/master/fact_sales.png)
 
 ## Project Setup
 
