@@ -29,6 +29,7 @@ This project demonstrates a complete data engineering pipeline using Azure Datab
         - Use a Lookup activity to fetch all tables from the SQL Database.
         - Use a For Each loop to iterate through each table.
         - Use a Copy Data activity within the loop to copy each table from SQL Database to the bronze container in ADLS Gen2 as Parquet files.
+
 **2. Configure Databricks Workspace:**
     - Create a new Databricks workspace.
     - Create a secret scope in Databricks and store the ADLS Gen2 access key from the Key Vault.
