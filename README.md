@@ -77,6 +77,7 @@ This project demonstrates a complete data engineering pipeline leveraging Azure 
     - Active Azure subscription
     - Databricks CLI, DBT CLI 
 * **Azure Resources:**
+![Azure Resource Groups.png]((https://github.com/phungthibacha/adventureworks_dbt_databricks/blob/master/Azure%20Resource%20Groups.png))
     - Create a Resource Group, ADLS Gen2 storage account, Data Factory, Key Vault, and SQL Database.
 * **Databricks Setup:**
     - Create a Databricks workspace, configure secret scope, and mount ADLS Gen2 containers.
